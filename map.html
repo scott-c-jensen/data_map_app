@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5c058639d502451dada422f78fa5b9c1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5c058639d502451dada422f78fa5b9c1" ></div>
+        
+</body>
+<script>    
+    
+            var map_5c058639d502451dada422f78fa5b9c1 = L.map(
+                "map_5c058639d502451dada422f78fa5b9c1",
+                {
+                    center: [44.1036988, -69.1075562],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_64c1c4f2130e4f66af872735761cc6d3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5c058639d502451dada422f78fa5b9c1);
+        
+    
+            var marker_4e927bb1bb9f493b8dfaaa72533e7593 = L.marker(
+                [42.5732468, -112.8772126],
+                {}
+            ).addTo(map_5c058639d502451dada422f78fa5b9c1);
+        
+    
+            var icon_97a25e4e841f4657a873fc5c42b0ba29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4e927bb1bb9f493b8dfaaa72533e7593.setIcon(icon_97a25e4e841f4657a873fc5c42b0ba29);
+        
+    
+        var popup_000b634d67494ed6b9bb4ab9a8a62d8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e68617a31c44eb2b52906f5b66c97fc = $(`<div id="html_8e68617a31c44eb2b52906f5b66c97fc" style="width: 100.0%; height: 100.0%;"><strong>Rockland, ID</strong></div>`)[0];
+            popup_000b634d67494ed6b9bb4ab9a8a62d8b.setContent(html_8e68617a31c44eb2b52906f5b66c97fc);
+        
+
+        marker_4e927bb1bb9f493b8dfaaa72533e7593.bindPopup(popup_000b634d67494ed6b9bb4ab9a8a62d8b)
+        ;
+
+        
+    
+    
+            marker_4e927bb1bb9f493b8dfaaa72533e7593.bindTooltip(
+                `<div>
+                     Rockland, ID
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f99d4447b6fe49d5b4e7b53e6b0f327a = L.marker(
+                [44.1146846801399, -116.91702728302758],
+                {}
+            ).addTo(map_5c058639d502451dada422f78fa5b9c1);
+        
+    
+            var icon_613879bf92da45d0ab8e326fda81d166 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f99d4447b6fe49d5b4e7b53e6b0f327a.setIcon(icon_613879bf92da45d0ab8e326fda81d166);
+        
+    
+        var popup_2ed7f0e1b1a24592b9a31fed1432b2f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63c462e27da545248b270757aeada588 = $(`<div id="html_63c462e27da545248b270757aeada588" style="width: 100.0%; height: 100.0%;"><strong>11126 N River Rd, Payette ID</strong></div>`)[0];
+            popup_2ed7f0e1b1a24592b9a31fed1432b2f3.setContent(html_63c462e27da545248b270757aeada588);
+        
+
+        marker_f99d4447b6fe49d5b4e7b53e6b0f327a.bindPopup(popup_2ed7f0e1b1a24592b9a31fed1432b2f3)
+        ;
+
+        
+    
+    
+            marker_f99d4447b6fe49d5b4e7b53e6b0f327a.bindTooltip(
+                `<div>
+                     11126 N River Rd, Payette ID
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
