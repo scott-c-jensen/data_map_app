@@ -2,7 +2,7 @@
 
 This code base is set to create a web app for mapping data. Specifically, it uploads addresses and create a density plot on the map of the world. This can give insight to the frequency of events based on geographical location. This is a simple data analytical tool developed for a specific company to identify regions of concern based on business metrics. Both the business name and the data are not included.
 
-## Use Cases and possible adaptations
+## Possible Applications and Easy Adaptations
 
 Some example use cases could be:
 1) Mapping where people are using your services for improved marketing (understanding your audience, finding untapped customer segments etc)
