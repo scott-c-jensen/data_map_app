@@ -8,7 +8,7 @@ Some example use cases could be:
 1) Mapping where people are using your services for improved marketing (understanding your audience, finding untapped customer segments etc)
 2) Mapping where you are losing customers (Clustering attition numbers by location, reason for leaving, etc)
 3) Online purchases by location
-4) ROI density plot (Just change the 
+4) ROI density plot (This can be achieved by changing the density to be by ROI instead of number of locations)
 
 ## Getting Started
 
