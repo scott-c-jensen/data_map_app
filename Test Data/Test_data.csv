@@ -1,8 +1,9 @@
-﻿Address,Lattitude,Longitude,Date
-"Pocatello, ID",42.68161308,-112.2292143,
-"Twin Falls, ID",42.77016874,,
-"Boise, ID",,-112.2298,
-"Idaho Falls, ID",42.85202228,-112.2221428,
-"Bone, ID",42.67857385,-112.1428,
-"Arco, ID",,,
-"Hailey, ID",,,
+﻿Address,Lattitude,Longitude,Date,Notes:
+"Pocatello, ID",42.68161308,-112.2292143,,
+"Twin Falls, ID",42.77016874,,,
+"Boise, ID",,-112.2298,,
+"Idaho Falls, ID",42.85202228,-112.2221428,,
+"Bone, Idaho",0,0,,
+"Arco, ID",,,,
+"Hailey, ID",,,,
+,42.68161308,-112.2272143,,
