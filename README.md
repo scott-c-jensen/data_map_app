@@ -1,6 +1,6 @@
 # Data Map App
 
-This code base is set to create a web app for mapping data. Specifically, it uploads addresses and create a density plot on the map of the world. This can give insight to the frequency of events based on geographical location. This is a simple data analytical tool developed for a specific company to identify regions of concern based on business metrics. Both the business name and the data are not included.
+This code base is set to create a web app for mapping data. Specifically, it uploads addresses and create a density plot on the map of the world. This can give insight to the frequency of events based on geographical location. This is a simple data analytical tool developed for a specific company to identify regions of concern based on business metrics. While the original application was for a company, both the business name and the business data are not included.
 
 ## Possible Applications of Current Code or Easy Adaptations
 
