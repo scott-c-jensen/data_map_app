@@ -12,7 +12,7 @@ Some example use cases could be:
 
 ## Getting Started
 
-This code base runs on Python 3.9. Setup of the conda environment can be done with the environment.yaml file. This can be easily done by installing Anaconda and issuing the following command in the data_map_app folder:
+This code base runs on Python 3.8. Setup of the conda environment can be done with the environment.yaml file. This can be easily done by installing Anaconda and issuing the following command in the data_map_app folder:
 _conda env create --file environment.yaml_
 
 
